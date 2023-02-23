@@ -30,12 +30,91 @@ main {
     height: 80vh;
 }
 
-#dark-mode-containter {
-    display: flex;
+button {
+    cursor: pointer;
 }
 
-button {
-    font-family: inherit;
+#dark-mode-btn {
+    margin: 10px 0 10px;
+    border: 2px solid #14201c;
+    border-radius: 16px;
+    background-color: #d9f5ec;
+    padding: 10px 25px;
     font-size: 18px;
+    font-weight: 700;
+    color: #14201c;
+}
+
+#dark-mode-btn:hover {
+    background-color: #14201c;
+    color: #9ff7d9;
+}
+
+.dark-mode-on {
+    background-color: #21352e;
+    color: #d9f5ec;
+}
+
+.dark-mode-on header, 
+.dark-mode-on footer {
+    background-color: #0d1412;
+}
+
+.dark-mode-on #dark-mode-btn {
+    background-color: #d9f5ec;
+    color: #14201c;
+    border: 2px solid #d9f5ec;
+}
+
+.dark-mode-on #dark-mode-btn:hover {
+    background-color: #14201c;
+    color: #d9f5ec;
+}
+
+#sum-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main > h2 {
+    margin-bottom: 10px;
+}
+
+#sum-field input {
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 0 5px;
+    width: 150px;
+}
+
+#sum-field button {
+    background-color: #d9f5ec;
+    color: #14201c;
+    padding: 12px 16px;
+    font-weight: 700;
+    border: 2px solid #0d1412;
+    border-radius: 10px;
+}
+
+#sum-field button:hover {
+    background-color: #14201c;
+    color: #d9f5ec;
+}
+
+#sum-result {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    padding-top: 5px;
+    height: 34px;
+    background-color: #d9f5ec;
 }
 

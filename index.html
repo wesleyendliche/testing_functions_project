@@ -13,17 +13,17 @@
    </header>
    
    <main>
-    <div id="dark-mode-container">
+    <div id="container">
       <h2>Toggle Dark Mode</h2>
-      <button>Change Theme</button>  
+      <button type="button" id="dark-mode-btn">Change Theme</button>  
     </div>
 
+    <h2>Add up some numbers</h2>
     <div id="sum-field">
-      <h2>Add up some numbers</h2>
-      <input type="number" name="first-number" id="first-number">
-      <span>+</span>
-      <input type="number" name="second-number" id="second-number">
-      <button type="submit">=</button>
+      <input type="number" name="first-number" id="first-number" placeholder="Click here">
+      <span style="font-size: 24px; font-weight: 700;">+</span>
+      <input type="number" name="second-number" id="second-number" placeholder="Click here">
+      <button type="submit" id="sum-up" onclick="sumUp()">=</button>
       <div id="sum-result"></div>  
     </div>
     
@@ -32,5 +32,7 @@
    <footer>
     <p>&copy;Project by Wesley Endliche</p>
    </footer>
+
+   <script src="/main.js"></script>
 </body>
 </html>
