@@ -9,3 +9,11 @@ function sumUp() {
 
     document.querySelector('#sum-result').textContent = equals;
 }
+
+
+let badgeImg = document.getElementById('team-badge');
+let team = document.querySelectorAll('option');
+
+team.addEventListener('onchange', () => {
+    badgeImg.style.display = 'block';
+})
