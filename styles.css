@@ -34,7 +34,7 @@ button {
     cursor: pointer;
 }
 
-#dark-mode-btn {
+#dark-mode-btn, #count {
     margin: 10px 0 10px;
     border: 2px solid #14201c;
     border-radius: 16px;
@@ -45,7 +45,7 @@ button {
     color: #14201c;
 }
 
-#dark-mode-btn:hover {
+#dark-mode-btn:hover, #count:hover {
     background-color: #14201c;
     color: #9ff7d9;
 }
@@ -126,6 +126,12 @@ form label, select {
     height: 150px;
     margin: 10px 0 0 205px;
     display: none;
+}
+
+#countdown {
+   display: flex;
+   font-size: 18px;
+   gap: 5px; 
 }
 
 footer {
